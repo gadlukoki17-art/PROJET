@@ -3,17 +3,149 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunnyside</title>
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&family=Fraunces:wght@700;900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>
-            KINSHASA
-        </h1>
-        <div>
-            <img src="" alt="">
-        </div>
+        <nav>
+            <a href="index.html">
+                <img src="icônes/logo.svg" alt="logo">
+            </a>
+            <ul class="list">
+               <li><a href="#">About</a></li>
+               <li><a href="#">Services</a></li>
+               <li><a href="#">Projects</a></li>
+               <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="burger">
+                    <!-- Checkbox cachée -->
+               <input type="checkbox" id="menu-toggle">
+
+                  <!-- Logo menu (burger) -->
+               <label for="menu-toggle" class="menu-icon">☰
+               </label>
+
+                     <!-- Navigation -->
+               <div class="nav">
+                  <a href="#">Accueil</a>
+                  <a href="#">Services</a>
+                  <a href="#">Contact</a>
+               </div>
+            </div>
+        </nav>  
+         <section>
+            <h1>we are creatives</h1>
+            <div class="icon">
+                <img src="icônes/icon-arrow-down.svg" alt="icon-arrow-down">
+            </div>
+        </section> 
     </header>
+    <main>
+         <section class="container">
+            <div class="section1 cont">
+                <div class="late">
+                    <h2 class="title">Transform your brand</h2>
+                    <p class="rem">We are a full-service creative agency<br>
+                    specializing in helping brands grow fast.<br>
+                    Engage your clients through compelling<br>
+                    visuals that do most of the marketing for<br>
+                    you.</p>
+                    <a href="#" class="lien">lean more</a>
+                </div>
+            </div>
+            <figure class="section2 cont">
+                <img src="images/image-transform.jpg" alt="image-transform" class="img">
+                <img src="Picture/image-transform.jpg" alt="image" class="picture">
+            </figure>
+            <figure class="section3 cont">
+                <img src="images/image-stand-out.jpg" alt="image-stand-out" class="img">
+                <img src="Picture/image-stand-out.jpg" alt="image" class="picture">
+            </figure>
+            <div class="section4 cont">
+                <div class="late">
+                    <h2 class="title">Stand out to the right <br>audience</h2>
+                    <p class="rem">Using a collaborative formula of designers,<br>
+                    researchers, photographers, videographers,<br>
+                    and copywriters, we'll build and extend your <br>
+                    brand in digital places</p> 
+                    <a href="#" class="lien2">lean more</a>
+                </div>    
+            </div> 
+            <div class="section5 cont">
+                <div class="late">
+                   <h3 class="title2">Graphic Desinpgn</h3>
+                   <p class="rem2">Great design makes you memorable. We deliver <br>
+                   artwork that underscores your brand message and <br>
+                   captures potential clients' attention.</p>
+                </div>   
+            </div>
+            <div class="section6 cont">
+                <div class="late">
+                   <h3 class="title2">Photography</h3>
+                   <p class="rem2">Increase your credibility by getting the most <br>
+                   stunning, high-quality photos that improne your <br>
+                   business image.</p>
+                </div>   
+            </div>    
+         </section>
+         <section class="testimonials">
+            <h2>client tesimonials</h2>
+            <div class="content">
+                   <div class="card">
+                       <img class="ptephoto" src="images/image-emily.jpg" alt="image">
+                       <p>We put our trust in sunnyside and they <br>
+                       delivered, making sure our needs were met <br>
+                       and deadlines were always hit
+                       </p>
+                       <h5>Emily R.</h5>
+                       <span>Marketing Director</span>
+                   </div>
+                   <div class="card">
+                       <img class="ptephoto" src="images/image-thomas.jpg" alt="image">
+                       <p>Sunnyside's enthusiasm coupled with their <br>
+                       keen interest in our brand's success mode <br>
+                       it a satisfying and enjoyable experience.
+                       </p>  
+                       <h5>Thomas S.</h5> 
+                       <span>Chief Operating Office</span>
+                   </div>
+                   <div class="card">
+                       <img class="ptephoto" src="images/image-jennie.jpg" alt="image">
+                       <p>Incredible end result! Our sales increased <br>
+                        over 400% when we worked with <br>
+                        Sunnyside. Highly recommended!
+                       </p>    
+                       <h5>Jennie F.</h5>
+                       <span>Business Owne</span>
+                   </div>  
+          </div>
+         </section>
+        <section>
+            <div class="gallery">
+                <img src="images/image-gallery-milkbottles.jpg" alt="image">
+                <img src="images/image-gallery-orange.jpg" alt="image">
+                <img src="images/image-gallery-cone.jpg" alt="image">
+                <img src="images/image-gallery-sugar-cubes.jpg" alt="image">
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <h3 class="logo">sunnyside</h3>
+            <ul class="footer-links">
+               <li><a href="#">About</a></li>
+               <li><a href="#">Services</a></li>
+               <li><a href="#">Projects</a></li>
+               <li><a href="#">Contact</a></li>
+            </ul>
+        <div class="icone">
+            <img src="icônes/icon-facebook.svg" alt="icon-facebook">
+            <img src="icônes/icon-instagram.svg" alt="icon-instagram">
+            <img src="icônes/icon-twitter.svg" alt="icon-twitter">
+            <img src="icônes/icon-pinterest.svg" alt="icon-pinterest">
+        </div>
+
+    </footer>
 </body>
 </html>
